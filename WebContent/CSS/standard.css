@@ -1,0 +1,67 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	
+}
+
+
+.blackboard {
+	background-color:#6F706F;
+	width: 12.5%;
+	height: 100%;
+	float: left;
+}
+
+#whiteboard{
+	background-color:#FFFFFF;
+	width: 90%;
+	margin: 0 auto;
+	height: 100%;
+	
+}
+#meImg{
+	height: 70%;
+	width:70%;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#bgImg{
+	width: 100%;
+	height: 100%;
+}
+
+#selfPortrait {
+	position: absolute;
+	top: 20%;
+	z-index: 10;
+	background-color:#353535;
+	height:100%;
+	width:25%;
+	border-radius:50%;
+}
+#fluffPortrait {
+	width: 100%;
+	height: 80%
+}
+#linkbar {
+	width: 100%;
+}
+#myPanel{
+	height: 25%;
+	position: relative;
+}
+#contentOfCharacter {
+	background-color:#2B89BF;
+	width: 75%;
+	height: 100%;
+	float: left;
+	
+}
+#spacerSP{
+	display: inline-block;
+	height: 50%;
+	width: 25%;
+}
