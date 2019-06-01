@@ -24,7 +24,10 @@ td,h3,th{
 	height: 100%;
 	float: left;
 }
-
+.txtHeavy{
+	font-size:20px;
+	line-height:28px;
+}
 #whiteboard{
 	background-color:#FFFFFF;
 	width: 90%;
@@ -62,14 +65,33 @@ td,h3,th{
 	height: 50%;
 	width: 100%;
 }
+#extraPanel{
+	height: 75%;
+}
+#resumePanel{
+	height:75%;	
+}
 #myPanel{
 	height: 25%;
 	position: relative;
 }
 #contactPanel{
 	background-color:#6F706F;
+	float:left;
 	display:inline-block;
+	width: 35%;
+	height: 67%;
+}
+#resumeDiv{
 	height: 100%;
+	width: 100%;
+}
+#interactionPanel{
+	/*background-color:#6890f4;*/
+	float: left;
+	display:inline-block;
+	width: 65%;
+	height: 67%;
 }
 #contentOfCharacter {
 	background-color:#2B89BF;
